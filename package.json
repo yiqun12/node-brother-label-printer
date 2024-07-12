@@ -1,0 +1,22 @@
+{
+  "name": "node-brother-label-printer",
+  "version": "1.0.0",
+  "description": "This Node.js package offers a straightforward interface for Brother label printers, utilizing the raster command system for binary bitmap data handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiqun12/node-brother-label-printer.git"
+  },
+  "keywords": [
+    "node-brother-label-printer"
+  ],
+  "author": "yiqun xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiqun12/node-brother-label-printer/issues"
+  },
+  "homepage": "https://github.com/yiqun12/node-brother-label-printer#readme"
+}
