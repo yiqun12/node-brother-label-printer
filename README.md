@@ -16,11 +16,15 @@ $ npm install node-brother-label-printer
 First, you will need the **VendorID (VID)** and **ProductID (PID)** of your printer. You can download and use the [Zadig](http://sourceforge.net/projects/libwdi/files/zadig/) tool to identify the PID and VID of your connected usb brother label printer if you don't know it. Next you will need a PNG file to print. Currently PNG is the only file format this library supports.
 
 ```javascript
-const brother = require("node-brother-label-printer");
-const VID = 0x04f9;
-const PID = 0x209d;
+const { printPngFile } = require('node-brother-label-printer');
 
-brother.printPngFile(VID, PID, "./sample-image.png", { landscape: false });
+printPngFile({
+    vendorId: 0x04f9,
+    productId: 0x209D,
+    filename: './sample.png',
+    options: { landscape: false, labelWidth: "62-mm-wide continuous" },//"102-mm-wide continuous"
+    compression: { enable: true }
+});
 ```
 
 ## Example
