@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/yiqun12/node-brother-label-printer/issues"
   },
-  "homepage": "https://github.com/yiqun12/node-brother-label-printer#readme"
+  "homepage": "https://github.com/yiqun12/node-brother-label-printer#readme",
+  "dependencies": {
+    "pngparse": "^2.0.1",
+    "sharp": "^0.33.4",
+    "usb": "^2.13.0"
+  }
 }
