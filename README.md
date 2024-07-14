@@ -25,7 +25,7 @@ First, you will need the **VendorID (VID)** and **ProductID (PID)** of your prin
 
 You can download a sample PNG file [here](https://github.com/yiqun12/node-brother-label-printer/blob/main/sample.png).
 
-**Note**: pngs should have a width of 720 pixels for optimal results
+`Note: pngs should have a width of 720 pixels for optimal results`
 
 ```javascript
 const { printPngFile } = require("node-brother-label-printer");
