@@ -41,7 +41,7 @@ printPngFile({
 
 ---
 
-Contributing
+## Contributing
 
 - Fork this repo
 - Clone your repo
