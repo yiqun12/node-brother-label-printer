@@ -23,6 +23,10 @@ Otherwise you will get `LIBUSB_ERROR_NOT_SUPPORTED` when attempting to open devi
 
 First, you will need the **VendorID (VID)** and **ProductID (PID)** of your printer. You can download and use the [Zadig](http://sourceforge.net/projects/libwdi/files/zadig/) tool to identify the PID and VID of your connected usb brother label printer if you don't know it. Next you will need a PNG file to print. Currently PNG is the only file format this library supports.
 
+You can download a sample PNG file [here](https://github.com/yiqun12/node-brother-label-printer/blob/main/sample.png).
+
+**Note**: pngs should have a width of 720 pixels for optimal results
+
 ```javascript
 const { printPngFile } = require("node-brother-label-printer");
 
