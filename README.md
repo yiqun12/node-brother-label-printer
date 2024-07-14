@@ -10,26 +10,28 @@ A node.js library built to print png images with Brother QL-820NWBc Label Printe
 ```npm
 $ npm install node-brother-label-printer
 ```
-if you use usb as an adapter :
 
-On Linux, you'll need libudev to build libusb.
-On Ubuntu/Debian: sudo apt-get install build-essential libudev-dev.
-On Windows, Use Zadig to install the WinUSB driver for your USB device.
-Otherwise you will get LIBUSB_ERROR_NOT_SUPPORTED when attempting to open devices.
+If you use usb as an adapter :
+
+- On Linux, you'll need `libudev` to build libusb.
+- On Ubuntu/Debian: `sudo apt-get install build-essential libudev-dev`.
+- On Windows, Use [Zadig](http://sourceforge.net/projects/libwdi/files/zadig/) to install the WinUSB driver for your USB device.
+
+Otherwise you will get `LIBUSB_ERROR_NOT_SUPPORTED` when attempting to open devices.
 
 ## How to print a PNG file
 
 First, you will need the **VendorID (VID)** and **ProductID (PID)** of your printer. You can download and use the [Zadig](http://sourceforge.net/projects/libwdi/files/zadig/) tool to identify the PID and VID of your connected usb brother label printer if you don't know it. Next you will need a PNG file to print. Currently PNG is the only file format this library supports.
 
 ```javascript
-const { printPngFile } = require('node-brother-label-printer');
+const { printPngFile } = require("node-brother-label-printer");
 
 printPngFile({
-    vendorId: 0x04f9,
-    productId: 0x209D,
-    filename: './sample.png',
-    options: { landscape: false, labelWidth: "62-mm-wide continuous" },//"102-mm-wide continuous"
-    compression: { enable: true }
+  vendorId: 0x04f9,
+  productId: 0x209d,
+  filename: "./sample.png",
+  options: { landscape: false, labelWidth: "62-mm-wide continuous" }, //"102-mm-wide continuous"
+  compression: { enable: true },
 });
 ```
 
@@ -38,6 +40,7 @@ printPngFile({
 ![img_1031](https://cdn.discordapp.com/attachments/759102082849833000/1261584970229485588/Weixin_Image_20240713002806.jpg?ex=66937e10&is=66922c90&hm=aa7086987a6561e1201ebfc070f569e9b0aa35b23d5c7759ebc6378ca81bf6e3&)
 
 ---
+
 Contributing
 
 - Fork this repo
