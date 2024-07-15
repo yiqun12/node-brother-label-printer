@@ -1,3 +1,5 @@
+//module.exports = require('');
+
 const { printPngFile } = require('./lib/labelPrinter');
 
 printPngFile({
