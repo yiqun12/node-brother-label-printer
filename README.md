@@ -3,7 +3,7 @@
 [![NPM](https://nodei.co/npm/node-brother-label-printer.png)](https://nodei.co/npm/node-brother-label-printer/)
 [![npm version](https://badge.fury.io/js/node-brother-label-printer.svg)](https://www.npmjs.com/package/node-brother-label-printer)
 
-#If you encounter any problems with this library, please submit an issue and also email me directly at admin@eatifydash.com.
+If you encounter any problems with this library, please submit an issue and also email me directly at admin@eatifydash.com.
 
 A node.js library built to print png images with Brother Label Printers (QL-710W, QL-720NW, QL-810W, QL-820NWB, QL-1110NWB, QL-1115NWB) connected via USB.
 
