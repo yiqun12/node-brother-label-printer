@@ -43,7 +43,7 @@ printPngFile({
 
 ## Example
 
-![img_1031](https://cdn.discordapp.com/attachments/759102082849833000/1261584970229485588/Weixin_Image_20240713002806.jpg?ex=66937e10&is=66922c90&hm=aa7086987a6561e1201ebfc070f569e9b0aa35b23d5c7759ebc6378ca81bf6e3&)
+![img_1031](https://imagedelivery.net/D2Yu9GcuKDLfOUNdrm2hHQ/e1b38183-61a8-4026-7893-d11ae8280e00/public)
 
 [Youtube Demo Video](https://youtu.be/1JQClq5ZUD4)
 
