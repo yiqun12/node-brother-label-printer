@@ -49,11 +49,12 @@ printPngFile({
   <img src="https://imagedelivery.net/D2Yu9GcuKDLfOUNdrm2hHQ/3704e62e-efab-44df-a7fb-7be9627ae000/public" alt="Image 1" width="300" height="500" style="float: left; margin-right: 10%;"/>
   <img src="https://imagedelivery.net/D2Yu9GcuKDLfOUNdrm2hHQ/e1b38183-61a8-4026-7893-d11ae8280e00/public" alt="Image 2" width="300" height="500" style="float: left;"/>
 </p>
-# Check out this video
+
+[Youtube Demo Video](https://youtu.be/1JQClq5ZUD4)
 
 [![Watch the video](https://img.youtube.com/vi/1JQClq5ZUD4/0.jpg)](https://www.youtube.com/watch?v=1JQClq5ZUD4)  
 
-[Youtube Demo Video](https://youtu.be/1JQClq5ZUD4)
+
 
 ---
 
