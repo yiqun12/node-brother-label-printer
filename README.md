@@ -55,8 +55,6 @@ printPngFile({
 
 [Youtube Demo Video](https://youtu.be/1JQClq5ZUD4)
 
-
-
 ---
 
 ## Contributing
