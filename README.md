@@ -7,6 +7,10 @@
 If you enjoy my work and would like to support me, you can buy me a coffee via Zelle using the email admin@eatifydash.com (Name: Yiqun Xu), or visit my Buy Me a Coffee page.(https://buymeacoffee.com/yeequn12)
 Should you encounter any issues with this library, please feel free to submit an issue on the repository and also email me directly at admin@eatifydash.com.
 
+⚠️ Note: Our team’s current priority is on other projects.  
+If you need an urgent solution, you can **buy us a $100 coffee** ☕,  
+and we’ll fast-track your request to deliver a fix or workaround within 1–2 days.
+
 
 A node.js library built to print png images with Brother Label Printers (QL-710W, QL-720NW, QL-810W, QL-820NWB, QL-1110NWB, QL-1115NWB) connected via USB.
 
