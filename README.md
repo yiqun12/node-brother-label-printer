@@ -12,7 +12,7 @@ If you need an urgent solution, you can **buy us a $100 coffee** ☕,
 and we’ll fast-track your request to deliver a fix or workaround within 1–2 days.
 
 
-A node.js library built to print png images with Brother Label Printers (QL-710W, QL-720NW, QL-810W, QL-820NWB, QL-1110NWB, QL-1115NWB) connected via USB.
+A node.js library built to print png images with Brother Label Printers (QL-710W, QL-720NW, QL-810W, QL-820NWB, QL-1110NWB, QL-1115NWB, QL-500) connected via USB.
 
 # Installation
 
